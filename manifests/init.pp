@@ -13,7 +13,7 @@ class nodejsenv(
     version => $default
   }
 
-  $module.each |$module| {
+  $modules.each |$module| {
     npm_module { "${module} for all nodes":
       module       => $module,
       node_version => '*'
