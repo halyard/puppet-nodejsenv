@@ -1,0 +1,25 @@
+{
+  "name": "halyard-nodejsenv",
+  "version": "0.0.20",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure nodejs environment via Boxen",
+  "source": "https://github.com/halyard/puppet-nodejsenv",
+  "project_page": "https://github.com/halyard/puppet-nodejsenv",
+  "issues_url": "https://github.com/halyard/puppet-nodejsenv/issues",
+  "dependencies": [
+    {
+      "name": "halyard/nodejs",
+      "version_requirement": "5.0.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
