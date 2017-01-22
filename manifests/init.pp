@@ -1,7 +1,7 @@
 # Configure nodejs environment for system
 class nodejsenv(
-  $versions = [],
   $default,
+  $versions = []
 ) {
   $modules = hiera_array('nodejsenv::modules', [])
 
